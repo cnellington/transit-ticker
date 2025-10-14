@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    color: #000000;
+}
+
+.container {
+    background: #ffffff;
+    max-width: 800px;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px 30px;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #000000;
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.station-name {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #666666;
+    letter-spacing: 0.05em;
+}
+
+main {
+    padding: 0;
+}
+
+.direction-section {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 40px 30px;
+}
+
+.direction-section:last-child {
+    border-bottom: none;
+}
+
+.trains-list {
+    padding: 0;
+}
+
+.arrival-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.primary-arrival {
+    font-size: 2.5em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+    color: #000000;
+}
+
+.secondary-arrival {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #999999;
+    letter-spacing: 0.02em;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999999;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.error {
+    color: #666666;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.no-predictions {
+    text-align: center;
+    padding: 30px 20px;
+    color: #999999;
+    font-weight: 300;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 0.75em;
+    color: #cccccc;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    header {
+        padding: 19px 15px 15px;
+    }
+
+    header::after {
+        left: 20px;
+        right: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .station-name {
+        font-size: 0.9em;
+    }
+
+    .primary-arrival {
+        font-size: 1.5em;
+    }
+
+    .secondary-arrival {
+        font-size: 0.95em;
+    }
+
+    .direction-section {
+        padding: 25px 15px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 0.7em;
+    }
+}

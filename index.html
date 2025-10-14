@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J Train - Schnoober Station</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>J Train</h1>
+            <p class="station-name">Schnoober Station</p>
+        </header>
+
+        <main>
+            <!-- Inbound Section -->
+            <section class="direction-section">
+                <div id="inbound-trains" class="trains-list">
+                    <div class="loading">Loading...</div>
+                </div>
+            </section>
+
+            <!-- Outbound Section -->
+            <section class="direction-section">
+                <div id="outbound-trains" class="trains-list">
+                    <div class="loading">Loading...</div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <span id="last-update-time">--</span>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
