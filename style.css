@@ -9,9 +9,10 @@ body {
     background: #ffffff;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
     padding: 0;
+    margin: 0;
     color: #000000;
 }
 
@@ -19,6 +20,14 @@ body {
     background: #ffffff;
     max-width: 800px;
     width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
 }
 
 header {
@@ -117,6 +126,8 @@ footer {
     color: #cccccc;
     font-weight: 300;
     letter-spacing: 0.05em;
+    margin-top: auto;
+    border-top: 1px solid #f0f0f0;
 }
 
 /* Responsive Design */
@@ -151,7 +162,15 @@ footer {
     }
 
     footer {
-        padding: 15px;
+        padding: 12px;
         font-size: 0.7em;
+    }
+
+    .loading {
+        padding: 30px 20px;
+    }
+
+    .no-predictions {
+        padding: 25px 20px;
     }
 }
