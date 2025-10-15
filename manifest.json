@@ -1,6 +1,6 @@
 {
   "name": "Schnoober Station",
-  "short_name": "Schnoober Station",
+  "short_name": "J",
   "description": "Real-time arrivals at Schnoober Station",
   "start_url": "/transit-ticker/",
   "display": "standalone",
