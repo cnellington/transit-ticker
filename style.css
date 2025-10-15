@@ -36,7 +36,7 @@ main {
 
 .icon-container {
     text-align: center;
-    padding: 30px 0;
+    margin-bottom: 0;
 }
 
 .train-icon {
@@ -82,6 +82,7 @@ main {
 .direction-section {
     padding: 40px 30px;
     border-bottom: 1px solid #e0e0e0;
+    width: 100%;
 }
 
 .direction-section:last-child {
@@ -135,7 +136,7 @@ main {
 }
 
 footer {
-    padding: 20px;
+    padding: 20px 20px 50px;
     text-align: center;
     font-size: 0.75em;
     color: #cccccc;
@@ -177,7 +178,7 @@ footer {
     }
 
     footer {
-        padding: 12px;
+        padding: 12px 12px 40px;
         font-size: 0.7em;
     }
 
@@ -190,7 +191,7 @@ footer {
     }
 
     .icon-container {
-        padding: 20px 0;
+        margin-bottom: 0;
     }
 
     .train-icon {
