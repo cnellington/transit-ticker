@@ -2,7 +2,7 @@
   "name": "Schnoober Station",
   "short_name": "Schnoober Station",
   "description": "Real-time arrivals at Schnoober Station",
-  "start_url": "/",
+  "start_url": "/transit-ticker/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
